@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J0kerModZ</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative; /* Added position relative to body */
+        }
+        .title {
+            position: absolute;
+            top: 20px;
+            font-size: 4em; /* Increased font size */
+            font-weight: bold;
+            text-align: center;
+        }
+        .subtitle {
+            position: absolute;
+            top: 90px; /* Adjusted to position below the title */
+            font-size: 1.5em;
+            color: red;
+            text-align: center;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Add space between buttons */
+        }
+        .button {
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            /* Default box-shadow */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0); /* Transparent */
+        }
+        .button.youtube {
+            background-color: #FF0000;
+            /* White glow for YouTube button */
+            box-shadow: 0 0 10px white;
+        }
+        .button.tiktok {
+            background-color: #800080; /* Purple background */
+            /* White glow for TikTok button */
+            box-shadow: 0 0 10px white;
+        }
+        .button.discord {
+            background-color: #7289DA;
+            /* Blue glow for Discord button */
+            box-shadow: 0 0 10px blue;
+        }
+        .button.github {
+            background-color: #333;
+            /* Red glow for GitHub button */
+            box-shadow: 0 0 10px red;
+        }
+        .button:hover {
+            opacity: 0.8;
+        }
+        /* Added styles for version and copyright text */
+        .version {
+            position: absolute;
+            bottom: 40px; /* Adjusted to position above the copyright */
+            right: 20px; /* Positioned at the right */
+            font-size: 0.8em; /* Adjust font size as needed */
+        }
+        .copyright {
+            position: absolute;
+            bottom: 20px; /* Adjusted to position above the bottom */
+            right: 20px; /* Positioned at the right */
+            font-size: 0.8em; /* Adjust font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Mast3rM0ds</div>
+    <div class="subtitle">Trolling Games Since 2023</div>
+    <div class="button-container">
+        <a href="https://www.tiktok.com/@j0kermodz_real" target="_blank" class="button tiktok">Follow on TikTok</a>
+        <a href="https://github.com/Mast3rM0ds" target="_blank" class="button github">Download Mods</a>
+    </div>
+    <!-- Added version text -->
+    <div class="version">Mast3rM0ds v1.9</div>
+    <!-- Added copyright text -->
+    <div class="copyright">©Mast3rM0ds 2024</div>
+</body>
+</html>
